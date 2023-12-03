@@ -1,0 +1,90 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(30, 38%, 92%);
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 500px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+}
+.card > img{
+    width: 255px;
+    border-radius: 10px 0px 0px 10px;
+}
+.right {
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 1fr;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+}
+.right p{
+    font-size: 12px;
+    line-height: 20px;
+}
+.price {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin: 15px 0;
+}
+.right h1 {
+    font-family: 'Fraunces', serif;
+    color: hsl(212, 21%, 14%);
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+.price-now {
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+    font-size: 30px;
+    margin-right: 10px;
+}
+.price-then {
+    text-decoration: line-through;
+}
+.perfume{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+button {
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    justify-content: center;
+    font-size: 12px;
+    gap: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsl(158, 26%, 23%);
+}
+button img{
+    width: 12px;
+}
